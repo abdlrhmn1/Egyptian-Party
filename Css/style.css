@@ -1,0 +1,83 @@
+.header{
+    background-image:url(../imgs/events-heavenly-header.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+}
+.layer{
+    height: 70vh;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+
+}
+.headline{
+flex-direction: column;
+}
+
+.accordion-button{
+    background-color: rgba(214, 46, 51 , 0.6) !important;
+    color: white !important;
+}
+
+.accordion-collapse{
+    background-color: rgb(0, 0, 0 ,.2);
+}
+
+.counter{
+    background-image: url(../imgs/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.tim {
+    padding : 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+.counter-overlay{
+    height: 40vh;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+.fab{
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.fab:hover{
+    background-color: #dc3545;
+    border: 2px solid transparent;
+    color: white;
+}
+
+.sidebar{
+    left: 0px;
+    top: 0px;
+    width:15%;
+    height: 100%;
+    background-color: black;
+}
+
+.toggle-btn{
+    position: absolute;
+    top: 10%;
+    left: 250px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+} 
+
+.links a{
+    padding:  15px 10px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+    width: 10px;
+}
+
+.sidebar .links a.active,.sidebar .links a:hover{
+    color: #dc3545;
+}
